@@ -1,7 +1,5 @@
 package dog_shopingmall_proj.dao;
 
-import static org.junit.Assert.fail;
-
 import java.sql.Connection;
 import java.util.List;
 

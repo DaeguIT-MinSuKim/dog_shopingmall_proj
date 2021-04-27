@@ -9,5 +9,7 @@
 <body>
 <%=JndiDS.getConnection() %>
 Hi~~~!!!
+<hr>
+<a href="dogList.do">개 목록보기</a>
 </body>
 </html>
