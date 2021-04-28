@@ -13,7 +13,7 @@
 <%-- ${dogList}
 <hr>
 ${todayImageList }
-<hr> --%>
+<hr>  --%>
 	<section id = "listForm">
 		<c:if test="${dogList != null}">
 			<h2>개 상품 목록  </h2>
@@ -22,7 +22,7 @@ ${todayImageList }
 				<tr>
 				<c:forEach var="dog" items="${dogList }" varStatus="status">
 					<td>
-						<a href="dogView.dog?id=${dog.id}">
+						<a href="dogView.do?id=${dog.id}">
 							<img src="images/${dog.image}" id="productImage"/>
 						</a>
 						
