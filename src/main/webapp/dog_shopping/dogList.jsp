@@ -17,7 +17,7 @@ ${todayImageList }
 	<section id = "listForm">
 		<c:if test="${dogList != null}">
 			<h2>개 상품 목록  </h2>
-			<div id="regDog"><a href="dogRegistForm.dog">개상품등록</a></div>
+			<div id="regDog"><a href="dogRegistForm.do">개상품등록</a></div>
 			<table>
 				<tr>
 				<c:forEach var="dog" items="${dogList }" varStatus="status">
