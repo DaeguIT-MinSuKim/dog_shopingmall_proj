@@ -147,7 +147,7 @@ ${cartList}
 					<a href="dogCartQtyUp.do?kind=${cart.kind }">
 						<img src="images/up.jpg" id="upImage" border=0/>
 					</a><br>
-					<span class="qty">${cart.qty }</span><br>
+					${cart.qty }<br>
 					<a href="#" class="downClick" data-kind="${cart.kind}" data-qty="${cart.qty}">
 						<img src="images/down.jpg" id="downImage" border=0 />
 					</a>
