@@ -59,3 +59,7 @@ table {
 #downImage {
 	width: 15px;
 }
+
+a{
+	text-decoration: none;
+}

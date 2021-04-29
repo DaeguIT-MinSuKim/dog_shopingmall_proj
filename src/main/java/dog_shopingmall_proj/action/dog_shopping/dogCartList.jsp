@@ -27,9 +27,9 @@
 			kind = $(this).data("kind");
 			qty = $(this).data("qty");
 			
-			//alert("kind" + kind + " qty = " + qty );
+			alert("kind" + kind + " qty = " + qty );
 			if(qty != 1){
-				$(".downClick").attr("href", "dogCartQtyDown.do?kind="+ encodeURIComponent(kind));
+				location.href="dogCartQtyDown.dog?kind="+ encodeURIComponent(kind);
 			}
 		});
 	});
@@ -149,7 +149,7 @@ ${cartList}
 						<img src="images/up.jpg" id="upImage" border=0/>
 					</a><br>
 					${cart.qty }<br>
-					<a href="" class="downClick" data-kind="${cart.kind}" data-qty="${cart.qty}">
+					<a href="#" class="downClick" data-kind="${cart.kind}" data-qty="${cart.qty}">
 						<img src="images/down.jpg" id="downImage" border=0 />
 					</a>
 	            </td>
